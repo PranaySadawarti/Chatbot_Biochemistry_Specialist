@@ -27,11 +27,10 @@ An intelligent AI assistant that provides accurate answers on Biochemistry topic
 - **Language**: Python 3.10+
 - **Server**: Uvicorn
 
----
 
 ## Quick Setup
 
-```bash
+bash
 git clone https://github.com/PranaySadawarti/Chatbot_Biochemistry_Specialist.git
 cd Chatbot_Biochemistry_Specialist
 
@@ -43,5 +42,14 @@ pip install -r requirements.txt
 copy .env.example .env
 # Add your Groq API key in .env
 
-## Run the app:
-Bash
+---
+## How to run the App
+
+Bash-
+uvicorn main:app --reload
+
+Navigate
+Visit: http://127.0.0.1:8000/docs
+
+
+
