@@ -1,0 +1,10 @@
+numpy
+langchain
+langchain_groq
+langchain_core
+langchain_community
+pymongo
+datetime
+fastapi
+uvicorn
+python-multipart
